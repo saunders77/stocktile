@@ -1,0 +1,240 @@
+*{
+    border:0px;
+    border-style:none;
+    padding:0px;
+    margin:0px;
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+
+body{
+    border:0px;
+    border-color:rgb(0,0,0);
+    color:white;
+    border-style:solid;
+    background-color:rgb(70,70,70);
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+     -o-box-sizing: border-box;
+        box-sizing: border-box;
+    position:relative;
+    z-index:20;
+}
+
+.splash{
+    display:none;
+}
+
+.display{
+    position:relative;
+    padding-left:5px;
+    padding-right:2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Consolas;
+    font-size:26px;
+    border-color:green;
+    border-width: 0px;
+    border-style: solid;
+    top:0%;
+    height:32.5%;
+    z-index:19;
+}
+
+#instructions{
+    position:absolute;
+    top:5%;
+    height:25%;
+    width:100%;
+    border:0px;
+    padding:0px 0px 0px 0px;
+    border-style:solid;
+    border-color:black;
+    font-family:Segoe UI;
+    font-size:13px;
+    text-align:center; 
+    vertical-align:middle;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+#inputs{
+    position:absolute;
+    top:30%;
+    height:33%;
+    width:100%;
+    border:0px;
+    border-style:solid;
+    border-color:black;
+    font-family:Arial;
+    font-size:14px;
+    text-align:center; 
+    vertical-align:middle;
+    
+}
+
+#stockconnector{
+    position:absolute;
+    height:15px;
+    width:400px;
+    bottom:25px;
+    left:5px;
+    z-index:901;
+    font-family: Segoe UI;
+    font-size:x-small;
+    text-decoration: underline;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#help{
+    position:absolute;
+    height:15px;
+    width:50px;
+    bottom:5px;
+    left:5px;
+    z-index:901;
+    font-family: Segoe UI;
+    font-size:x-small;
+    text-decoration: underline;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#rate{
+    position:absolute;
+    height:11px;
+    width:49px;
+    bottom:9px;
+    right:5px;
+    z-index:902;
+    font-family: Arial;
+    font-size:x-small;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#ticker{
+    
+    height:26px;
+    width:62px;
+    border:0px;
+    border-style:solid;
+    border-color:black;
+    font-family:Segoe UI;
+    font-size:14px;
+    font-weight: bold;
+    text-align:left;
+    padding:0px;
+    padding-left:4px; 
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+     -o-box-sizing: border-box;
+        box-sizing: border-box;
+        vertical-align: top;
+}
+
+#setTicker{
+    vertical-align: top;
+    height:26px;
+    width:26px;
+    font-size:14px;
+    font-family:Arial;
+    background-color: rgb(27,119,38);
+    border:0px;
+    border-color:black;
+    border-style:solid;
+    border-left:0px none;
+    cursor:pointer;
+    color:white;
+    text-align:center;
+    padding:0px;
+    
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+     -o-box-sizing: border-box;
+        box-sizing: border-box; 
+}
+
+#stockName{
+
+}
+#price{
+    text-align:right;
+}
+#change{
+    text-align:right;
+
+}
+#timestamp{
+    position:absolute;
+    top:0px;
+    height:300px;
+    width:300px;
+    font-family: Consolas;
+    color:white;
+    z-index: 700;
+    font-size: 8;
+    background-color:blue;
+}
+
+#debug{
+    position:absolute;
+    top:0px;
+    right:0px;
+    z-index:600;
+    height:26%;
+    width:26%;
+    font-family: Consolas;
+    color:white;
+    padding:2%;
+    padding-top:4.4%;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#debug2{
+    display:none;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    z-index:600;
+    height:50%;
+    width:50%;
+    font-family: Consolas;
+    color:white;
+    background-color:blue;
+    opacity:0.5;
+    z-index:900;
+}
